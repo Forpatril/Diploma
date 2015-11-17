@@ -1,0 +1,25 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_redistribution" />
+  <mkdir dir="C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing" />
+</ant>
+mcc -W 'dotnet:high,ihpf,0.0,private' -T link:lib -d 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing' -v 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high.m' 'class{ihpf:C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high.m}' 
+Compiler version: 5.1 (R2014a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\Users\Forpatril\Documents\Visual Studio
+2010\Projects\Diploma_cs" to Compiler path instance.] 
+Parsing file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\deployprint.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\printdlg.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing\ihpfNative.cs".
+Generating file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing\ihpf.cs".
+Generating file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing\readme.txt".
+Executing command: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /optimize /doc:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing\high.xml" /t:library /r:"C:\Program Files\MATLAB\R2014a\toolbox\dotnetbuilder\bin\win64\v2.0\MWArray.dll" /resource:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing\high.ctf" /out:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing\high.dll" "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing\ihpf.cs"Executing command: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /optimize /doc:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing\highNative.xml" /t:library /r:"C:\Program Files\MATLAB\R2014a\toolbox\dotnetbuilder\bin\win64\v2.0\MWArray.dll" /resource:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing\high.ctf" /out:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing\highNative.dll" "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_testing\ihpfNative.cs"
+Packaging...
+Creating the bundle...
+Web based installer created at C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.

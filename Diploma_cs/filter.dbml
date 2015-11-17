@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="filter" Class="filterDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=FORPATRIL-VAIO;Initial Catalog=filter;Integrated Security=True" SettingsObjectName="Diploma_cs.Properties.Settings" SettingsPropertyName="filterConnectionStringNote" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblbilateral" Member="tblbilaterals">
+    <Type Name="tblbilateral">
+      <Column Name="height" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="width_c" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="p_time" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="window" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="sigma_s" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="sigma_i" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblhpf" Member="tblhpfs">
+    <Type Name="tblhpf">
+      <Column Name="height" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="width_c" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="p_time" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="perc" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbllpf" Member="tbllpfs">
+    <Type Name="tbllpf">
+      <Column Name="height" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="width_c" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="p_time" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="perc" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.add_b_res" Method="add_b_res">
+    <Parameter Name="h" Type="System.Int32" DbType="Int" />
+    <Parameter Name="wc" Type="System.Double" DbType="Float" />
+    <Parameter Name="pt" Type="System.Double" DbType="Float" />
+    <Parameter Name="w" Type="System.Double" DbType="Float" />
+    <Parameter Name="ss" Type="System.Double" DbType="Float" />
+    <Parameter Name="si" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.add_h_res" Method="add_h_res">
+    <Parameter Name="h" Type="System.Int32" DbType="Int" />
+    <Parameter Name="wc" Type="System.Double" DbType="Float" />
+    <Parameter Name="pt" Type="System.Double" DbType="Float" />
+    <Parameter Name="perc" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.add_l_res" Method="add_l_res">
+    <Parameter Name="h" Type="System.Int32" DbType="Int" />
+    <Parameter Name="wc" Type="System.Double" DbType="Float" />
+    <Parameter Name="pt" Type="System.Double" DbType="Float" />
+    <Parameter Name="perc" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.b_max" Method="b_max" IsComposable="true">
+    <Return Type="System.Double" />
+  </Function>
+  <Function Name="dbo.b_min" Method="b_min" IsComposable="true">
+    <Return Type="System.Double" />
+  </Function>
+</Database>

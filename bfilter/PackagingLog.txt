@@ -1,0 +1,31 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_redistribution" />
+  <mkdir dir="C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing" />
+</ant>
+mcc -W 'dotnet:bfilter,Bilateral,0.0,private' -T link:lib -d 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing' -v 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter2.m' 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bilateral.m' 'class{Bilateral:C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter2.m,C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bilateral.m}' -a 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\colorspace.m' 
+Compiler version: 5.1 (R2014a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\Users\Forpatril\Documents\Visual Studio
+2010\Projects\Diploma_cs" to Compiler path instance.] 
+[Warning: Adding path "C:\Users\Forpatril\Documents\Visual Studio
+2010\Projects\Diploma_cs" to Compiler path instance.] 
+[Warning: Duplicate directory name: C:\Users\Forpatril\Documents\Visual Studio
+2010\Projects\Diploma_cs] 
+Parsing file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter2.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bilateral.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\deployprint.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\printdlg.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing\BilateralNative.cs".
+Generating file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing\Bilateral.cs".
+Generating file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing\readme.txt".
+Executing command: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /optimize /doc:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing\bfilter.xml" /t:library /r:"C:\Program Files\MATLAB\R2014a\toolbox\dotnetbuilder\bin\win64\v2.0\MWArray.dll" /resource:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing\bfilter.ctf" /out:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing\bfilter.dll" "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing\Bilateral.cs"Executing command: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /optimize /doc:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing\bfilterNative.xml" /t:library /r:"C:\Program Files\MATLAB\R2014a\toolbox\dotnetbuilder\bin\win64\v2.0\MWArray.dll" /resource:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing\bfilter.ctf" /out:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing\bfilterNative.dll" "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_testing\BilateralNative.cs"
+Packaging...
+Creating the bundle...
+Web based installer created at C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.

@@ -1,0 +1,25 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_redistribution" />
+  <mkdir dir="C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing" />
+</ant>
+mcc -W 'dotnet:Load,Loader,0.0,private' -T link:lib -d 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing' -v 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\loadimage.m' 'class{Loader:C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\loadimage.m}' 
+Compiler version: 5.1 (R2014a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\Users\Forpatril\Documents\Visual Studio
+2010\Projects\Diploma_cs" to Compiler path instance.] 
+Parsing file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\loadimage.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\deployprint.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\printdlg.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing\LoaderNative.cs".
+Generating file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing\Loader.cs".
+Generating file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing\readme.txt".
+Executing command: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /optimize /doc:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing\Load.xml" /t:library /r:"C:\Program Files\MATLAB\R2014a\toolbox\dotnetbuilder\bin\win64\v2.0\MWArray.dll" /resource:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing\Load.ctf" /out:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing\Load.dll" "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing\Loader.cs"Executing command: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /optimize /doc:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing\LoadNative.xml" /t:library /r:"C:\Program Files\MATLAB\R2014a\toolbox\dotnetbuilder\bin\win64\v2.0\MWArray.dll" /resource:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing\Load.ctf" /out:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing\LoadNative.dll" "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_testing\LoaderNative.cs"
+Packaging...
+Creating the bundle...
+Web based installer created at C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\Load\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.

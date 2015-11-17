@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="filter">
+  <DataContextMoniker Name="/filterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="565adbb4-2bde-4a66-9f3f-c888db5ed1f8" absoluteBounds="4.25, 1.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/filterDataContext/tblbilateral" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b19a3f29-f1fa-430a-b7f8-c803adec1635" absoluteBounds="4.265, 2.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5597bb5a-bfa2-43be-8a46-0bd4077f106d" absoluteBounds="3.875, 1.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/filterDataContext/tblhpf" />
+      <nestedChildShapes>
+        <elementListCompartment Id="75256fc3-0cd8-476e-acb9-f793752654a5" absoluteBounds="3.89, 1.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dbd63f13-2251-49e0-89e1-7db8bd82fbbb" absoluteBounds="4, 1, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/filterDataContext/tbllpf" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20576b5d-50e8-4115-936b-50f4069bbc7a" absoluteBounds="4.015, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

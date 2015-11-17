@@ -1,0 +1,38 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_redistribution" />
+  <mkdir dir="C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing" />
+</ant>
+mcc -W 'dotnet:filter,filterclass,0.0,private' -T link:lib -d 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing' -v 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter.m' 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\runDemo.m' 'class{filterclass:C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter.m,C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\runDemo.m}' -a 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\academy.jpg' -a 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bfilter2.m' -a 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\bilateral.m' -a 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\changeclass.m' -a 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\colorspace.m' -a 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\einstein.jpg' -a 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\high.m' -a 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\low.m' -a 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\mandrill.jpg' -a 'C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\spfilt.m' 
+Compiler version: 5.1 (R2014a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\Users\Forpatril\Documents\Visual Studio
+2010\Projects\Diploma_cs" to Compiler path instance.] 
+[Warning: Adding path "C:\Users\Forpatril\Documents\Visual Studio
+2010\Projects\Diploma_cs" to Compiler path instance.] 
+[Warning: Duplicate directory name: C:\Users\Forpatril\Documents\Visual Studio
+2010\Projects\Diploma_cs] 
+Parsing file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\runDemo.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\deployprint.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\printdlg.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 7 temporary MEX authorization files.
+Removing: 'C:\Users\FORPAT~1\AppData\Local\Temp\mathworks_tmp_2068_3510_2068.auth'.
+Removing: 'C:\Users\FORPAT~1\AppData\Local\Temp\mathworks_tmp_2068_7813_2068.auth'.
+Removing: 'C:\Users\FORPAT~1\AppData\Local\Temp\mathworks_tmp_2068_6433_2068.auth'.
+Removing: 'C:\Users\FORPAT~1\AppData\Local\Temp\mathworks_tmp_2068_23008_2068.auth'.
+Removing: 'C:\Users\FORPAT~1\AppData\Local\Temp\mathworks_tmp_2068_7903_2068.auth'.
+Removing: 'C:\Users\FORPAT~1\AppData\Local\Temp\mathworks_tmp_2068_12126_2068.auth'.
+Removing: 'C:\Users\FORPAT~1\AppData\Local\Temp\mathworks_tmp_2068_16346_2068.auth'.
+Generating file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing\filterclassNative.cs".
+Generating file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing\filterclass.cs".
+Generating file "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing\readme.txt".
+Executing command: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /optimize /doc:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing\filter.xml" /t:library /r:"C:\Program Files\MATLAB\R2014a\toolbox\dotnetbuilder\bin\win64\v2.0\MWArray.dll" /resource:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing\filter.ctf" /out:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing\filter.dll" "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing\filterclass.cs"Executing command: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /optimize /doc:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing\filterNative.xml" /t:library /r:"C:\Program Files\MATLAB\R2014a\toolbox\dotnetbuilder\bin\win64\v2.0\MWArray.dll" /resource:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing\filter.ctf" /out:"C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing\filterNative.dll" "C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_testing\filterclassNative.cs"
+Packaging...
+Creating the bundle...
+Web based installer created at C:\Users\Forpatril\Documents\Visual Studio 2010\Projects\Diploma_cs\filter\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
